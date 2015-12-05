@@ -1,0 +1,41 @@
+body {
+  font-family: Calibri, 'Gill Sans', 'Trebuchet MS', sans-serif;
+  margin: 10%;
+  font-size: 24pt;
+  background-color: rgb(236, 233, 230);
+  text-align: center;
+  vertical-align: middle;
+}
+
+div.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+}
+
+p {
+  font-size: 17px;
+  line-height: 25px;
+}
+
+a {
+    color: rgb(58, 48, 42);
+}
+
+a:hover, a:focus {
+  color: rgb(162, 82, 146);
+}
+
+a:hover {
+    text-decoration: underline;
+}
